@@ -6,10 +6,9 @@ def get_data():
     startTime = time.time()
 
     df = pd.DataFrame()
-
     driver = uc.Chrome()
 
-    for page in range(1, 101):
+    for page in range(1, 2):
         URL = "https://www.vivareal.com.br/venda/bahia/salvador/?pagina={0}".format(page)
         driver.get(URL)
         time.sleep(2)
@@ -23,11 +22,11 @@ def get_data():
     driver.close()
     time.sleep(1)
 
-
     finishTime = time.time()
     duration = finishTime - startTime
     print("Finished web scraping in {0} seconds.".format(duration))
 
+    df = df.set_index("id")
     return df
 
 

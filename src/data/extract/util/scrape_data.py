@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 
 def scrape_data(data):
     parsed_data = {
+        "id": [],
         "addresses": [],
         "titles": [],
         "areas": [],
@@ -16,6 +17,11 @@ def scrape_data(data):
     cards = soup.find_all('div', attrs={"data-type": "property"})
     
     for card in cards:
+        try:
+            id = card['id']
+        except:
+            id = ""
+
         try:
             address = card.find('span', class_="property-card__address").text
         except:
@@ -51,6 +57,7 @@ def scrape_data(data):
         except:
             prices = ""
         
+        parsed_data["id"].append(id)
         parsed_data["addresses"].append(address)
         parsed_data["titles"].append(title)
         parsed_data["areas"].append(area)
