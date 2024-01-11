@@ -2,13 +2,13 @@ import time
 import undetected_chromedriver as uc
 import pandas as pd
 
-def get_data():
+def get_data(start, finish):
     startTime = time.time()
 
     df = pd.DataFrame()
     driver = uc.Chrome()
 
-    for page in range(1, 101):
+    for page in range(start, finish):
         URL = "https://www.vivareal.com.br/venda/bahia/salvador/?pagina={0}".format(page)
         driver.get(URL)
         time.sleep(2)
@@ -32,7 +32,7 @@ def get_data():
 if __name__ == "__main__":
     from util.scrape_data import scrape_data
     
-    data = get_data()
+    data = get_data(1, 2)
     data.to_csv("./data/scraped_data.csv", index=False)
 else:
     from .util.scrape_data import scrape_data
