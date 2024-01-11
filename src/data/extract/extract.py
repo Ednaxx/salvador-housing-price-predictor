@@ -24,9 +24,8 @@ def get_data():
 
     finishTime = time.time()
     duration = finishTime - startTime
-    print("Finished web scraping in {0} seconds.".format(duration))
+    print("Finished web scraping in {0} seconds.".format(round(duration, 2)))
 
-    df = df.set_index("id")
     return df
 
 

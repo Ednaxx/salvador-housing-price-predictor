@@ -3,10 +3,8 @@ import pandas as pd
 def transform_data(df):
     print("Transforming data.")
 
-    if (df.columns[0] == "Unnamed: 0"): df = df.drop(df.columns[0], axis=1)
-    df = df.drop_duplicates()
+    df = df.drop_duplicates(subset=["id"])
     df = df.dropna(subset=["prices"])
-
 
 
     df['type'] = ''
@@ -19,14 +17,14 @@ def transform_data(df):
     df = df.drop("titles", axis=1)
 
 
-    addresses = df.addresses.str.split(" - ", expand=True)
-    addresses = addresses.rename(columns={0: "streets", 1: "neighborhood"})
-    addresses.neighborhood = addresses.neighborhood.str.replace(", Salvador", "")
-    addresses = addresses.drop(addresses.columns[2], axis=1)
+    neighborhood = df.addresses.str.split(" - ", expand=True)
+    neighborhood = neighborhood[neighborhood.columns[1]]
+    neighborhood = neighborhood.str.split(",", expand=True)
+    neighborhood = neighborhood[neighborhood.columns[0]]
+    neighborhood = neighborhood.rename("neighborhood")
 
     df = df.drop("addresses", axis=1)
-    df = pd.concat([df, addresses], axis=1)
-
+    df = pd.concat([df, neighborhood], axis=1)
 
 
     df.prices = df.prices.str.strip(" ")
@@ -58,5 +56,8 @@ def transform_data(df):
 
 
 if __name__ == '__main__':
-    data = transform_data(pd.read_csv("./data/scraped_data.csv"))
+    scraped_data = pd.read_csv("./data/scraped_data.csv")
+    if (scraped_data.columns[0] == "Unnamed: 0"): scraped_data = scraped_data.drop(scraped_data.columns[0], axis=1)
+    data = transform_data(scraped_data)
+    data = data.set_index("id")
     data.to_csv("./data/transformed_data.csv", encoding='utf-8')
