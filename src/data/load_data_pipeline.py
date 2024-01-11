@@ -3,7 +3,7 @@ from transform.transform import transform_data
 import pandas as pd
 
 def load_data():
-    scraped_data = get_data(1, 101)
+    scraped_data = get_data(1, 2)
     clean_data = transform_data(scraped_data)
 
     return clean_data
