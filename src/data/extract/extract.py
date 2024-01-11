@@ -8,7 +8,7 @@ def get_data():
     df = pd.DataFrame()
     driver = uc.Chrome()
 
-    for page in range(1, 2):
+    for page in range(1, 101):
         URL = "https://www.vivareal.com.br/venda/bahia/salvador/?pagina={0}".format(page)
         driver.get(URL)
         time.sleep(2)
