@@ -33,6 +33,6 @@ if __name__ == "__main__":
     from util.scrape_data import scrape_data
     
     data = get_data()
-    data.to_csv("./data/scraped_data.csv", encoding='utf-8')
+    data.to_csv("./data/scraped_data.csv", index=False)
 else:
     from .util.scrape_data import scrape_data

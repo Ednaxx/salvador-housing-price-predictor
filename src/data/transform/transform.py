@@ -57,7 +57,5 @@ def transform_data(df):
 
 if __name__ == '__main__':
     scraped_data = pd.read_csv("./data/scraped_data.csv")
-    if (scraped_data.columns[0] == "Unnamed: 0"): scraped_data = scraped_data.drop(scraped_data.columns[0], axis=1)
     data = transform_data(scraped_data)
-    data = data.set_index("id")
-    data.to_csv("./data/transformed_data.csv", encoding='utf-8')
+    data.to_csv("./data/transformed_data.csv", index=False)
