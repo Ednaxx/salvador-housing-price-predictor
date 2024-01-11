@@ -1,10 +1,10 @@
 import pandas as pd
 
-def transform_data():
-    df = pd.read_csv("../data/scraped_data.csv")
+def transform_data(df):
+    print("Transforming data.")
 
+    if (df.columns[0] == "Unnamed: 0"): df = df.drop(df.columns[0], axis=1)
     df = df.drop_duplicates()
-    df = df.drop(df.columns[0], axis=1)
     df = df.dropna(subset=["prices"])
 
 
@@ -58,5 +58,5 @@ def transform_data():
 
 
 if __name__ == '__main__':
-    data = transform_data()
-    data.to_csv("../data/transformed_data.csv", encoding='utf-8')
+    data = transform_data(pd.read_csv("./data/scraped_data.csv"))
+    data.to_csv("./data/transformed_data.csv", encoding='utf-8')
