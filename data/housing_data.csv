@@ -1,0 +1,105 @@
+,areas,bedrooms,bathrooms,parkingSpots,prices,type,streets,neighborhood
+0,133.0,3.0,3.0,2.0,180000.0,house,"Rua Archibaldo Baleeiro, 77",Rio Vermelho
+1,57.0,2.0,2.0,2.0,426000.0,apartment,"Rua Parambu, 596",Santa Teresa
+2,324.0,5.0,3.0,4.0,340000.0,house,Rua das Pitangas de São Tomé,Sao Tome
+3,73.0,2.0,1.0,1.0,70000.0,house,"Rua Alto da Boa Vista, 78",Itapuã
+4,100.0,3.0,2.0,1.0,100000.0,house,"1ª Avenida São Francisco, 0",Engomadeira
+5,72.0,3.0,3.0,2.0,529100.0,apartment,"Rua Ibiassucê, 100",Patamares
+6,70.0,3.0,2.0,1.0,75000.0,house,"Rua Itajuá, 12",Amaralina
+7,90.0,3.0,2.0,1.0,195000.0,house,Ladeira do Jacaré,Macaubas
+8,32.0,,,1.0,,,"Avenida Tancredo Neves, 1033",Caminho Das Árvores
+9,100.0,3.0,2.0,1.0,70000.0,house,"Rua Nossa Senhora Aparecida, 00",Paripe
+10,62.0,2.0,1.0,1.0,50000.0,house,"Avenida Dezoito de Fevereiro, 26",Caixa D´Água
+11,52.0,2.0,2.0,1.0,255000.0,apartment,"Jardim Brasília, 133",Pernambués
+12,64.0,2.0,2.0,2.0,420000.0,apartment,"Rua Antônio da Silva Coelho, 328",Jardim Armacao
+13,223.0,3.0,5.0,4.0,1750000.0,apartment,"Avenida Professor Magalhães Neto, 1795",Loteamento Aquarius
+14,70.0,2.0,2.0,2.0,545000.0,apartment,"Rua Amazonas, 145",Pituba
+15,75.0,2.5,2.5,1.5,464230.0,,"Rua Doutor Genésio Salles, 262",Vila Laura
+16,89.0,2.0,1.0,1.0,70000.0,house,"Rua do Tabuão, 000",Pelourinho
+17,90.0,3.0,3.0,2.0,670000.0,apartment,"Alameda Benevento, 560",Pituba
+18,55.0,3.0,2.0,,94890.0,house,"2ª Travessa Gandarela, 100",Cosme de Farias
+19,82.0,3.0,3.0,2.0,410000.0,apartment,"Avenida Jorge Amado, 214",Imbuí
+20,120.0,2.0,2.0,,55000.0,house,"Caminho 03-Quadra E, 455",Fazenda Grande I
+21,81.0,2.0,2.0,1.0,310000.0,apartment,Rua São Paulo,Pituba
+22,56.0,2.0,1.0,1.0,230000.0,apartment,"Rua dos Bandeirantes, 100",Matatu
+23,84.0,2.0,1.0,1.0,115000.0,house,"Rua Lúcio Manoel da Hora, 23",Boca do Rio
+24,95.0,2.0,1.0,1.0,50000.0,house,"Rua Apóstolo Epifânio, 0000",Sao Caetano
+25,70.0,2.0,2.0,1.0,60000.0,house,"Rua dos Carmelitas, 965",Dom Avelar
+26,70.0,3.0,2.0,1.0,399000.0,apartment,"Rua Silveira Martins, 100",Cabula
+27,83.0,2.0,2.0,1.0,50000.0,house,"Rua Jacira Cerqueira, 25",Doron
+28,94.0,3.0,2.0,2.0,310000.0,apartment,"Avenida Caminho de Areia, 1",Caminho de Areia
+29,80.0,2.0,2.0,1.0,80000.0,house,"Rua Getúlio Vargas, 23",São Marcos
+30,85.0,2.0,1.0,1.0,50000.0,house,"Rua Gamboa de Cima, 000",Dois de Julho
+31,41.0,2.0,1.0,1.0,159200.0,apartment,"Rua Juscelino Kubitschek, 100",Cajazeiras XI
+32,50.0,2.0,1.0,,60000.0,house,"Rua Araçatuba, 43",Cosme de Farias
+33,45.0,1.0,1.0,1.0,349460.0,apartment,"Rua Altino Serbeto de Barros, 100",Pituba
+34,76.0,3.0,2.0,2.0,62000.0,house,"Rua Antonio Cândido de Lima, 23",Narandiba
+35,75.0,3.0,3.0,2.0,420000.0,apartment,Rua Lalita Costa,Matatu
+1,60.0,2.0,2.0,2.0,,,"Rua Padre Silveira Sales, 04",Jaguaribe
+8,42.5,1.5,1.0,,,,"Rua da Matriz, S/N",Valéria
+15,50.5,1.5,1.5,1.5,289000.0,apartment,"Rua Parambu, 431",Santa Teresa
+3,53.0,2.0,2.0,2.0,375000.0,apartment,"Rua Parambu, 467",Santa Teresa
+6,90.0,3.0,2.0,,65000.0,house,"Avenida Manoel Bispo, 55",Novo Horizonte
+7,121.0,4.0,4.0,2.0,649180.0,house,"Rua Professor Felipe Tiago Gomes, 100",Stella Maris
+8,51.0,2.0,1.5,1.0,295000.0,,"Rua Parambu, S/n",Santa Teresa
+9,52.0,2.0,1.0,1.0,169220.0,apartment,"Rua Joaquim Ferreira, 100",Jardim das Margaridas
+11,65.0,2.0,3.0,1.0,419010.0,apartment,"Rua Anquises Reis, 100",Armação
+15,42.0,1.0,1.0,1.0,,,"Rua Padre Silveira Sales, 04",Jaguaribe
+18,50.0,2.0,1.0,1.0,319900.0,apartment,"Rua da Gratidão, 290",Piatã
+22,46.0,2.0,1.0,,90000.0,house,"Rua Maria Aline de Jesus, 43",Doron
+26,135.0,2.0,2.0,,100000.0,house,"Rua Teodolina Macêdo Campos, 04879",Cajazeiras XI
+27,103.0,3.0,1.0,1.0,80000.0,house,"Rua da Maçonaria, 105",Boca do Rio
+28,80.0,3.0,2.0,1.0,70000.0,house,"Avenida São Raimundo, 70",Mata Escura
+29,100.0,3.0,1.0,,175000.0,house,"Rua João Paulo II, 543",Pituaçu
+30,85.0,2.0,1.0,1.0,50000.0,house,"2ª Travessa São José de Cajazeiras X, 13",Cajazeiras X
+32,80.0,3.0,2.0,,250000.0,house,"Boulevard das Flores, 01",Barbalho
+33,80.0,3.0,2.0,1.0,78000.0,house,"Rua da Capelinha, 90",Nordeste
+34,44.0,2.0,1.0,,249950.0,apartment,"Rua Panorama, 139",Jardim das Margaridas
+35,70.0,2.0,1.0,1.0,50000.0,house,"Rua Bartolomeu Dias, 22",Dom Avelar
+6,56.0,2.0,1.0,,140000.0,apartment,"Rua Conde de Porto Alegre, 260",Iapi
+13,89.0,2.0,1.0,,72000.0,house,"Rua da Cascata, 13",Alto da Terezinha
+14,97.0,2.0,1.0,1.0,80000.0,house,"Estrada da Cachoeirinha, 40",Cabula VI
+20,80.0,3.0,1.0,1.0,62000.0,house,"Rua Henrique Dias, 82",Roma
+26,60.0,2.0,2.0,1.0,60000.0,house,"Rua Frederico Lisboa, 65",Mares
+27,60.0,2.0,1.0,1.0,50000.0,house,"Rua Direta da Mata Escura, 47",Mata Escura
+28,70.0,2.0,1.0,2.0,80000.0,house,"Rua Recanto dos Jambeiros, 296",Boca da Mata
+29,60.0,2.0,2.0,1.0,85000.0,house,"Rua Km-17, 0",Itapuã
+30,80.0,2.0,1.0,1.0,80000.0,house,"Caminho 03-C-Quadra F, 65883",Fazenda Grande I
+31,220.0,2.0,1.0,1.0,115000.0,house,"Avenida Jequitaia, 1",Comércio
+32,70.0,2.0,1.0,1.0,50000.0,house,"Largo do Japão, 1",Liberdade
+33,70.0,2.0,1.0,1.0,90000.0,house,"Loteamento Jardim Paraíso, 39",Pituaçu
+34,74.0,3.0,3.0,2.0,620000.0,apartment,"Rua das Araras, 100",Imbuí
+35,90.0,2.0,2.0,1.0,65000.0,house,"Rua Almirante Mourão de Sá, 51",Paripe
+0,71.0,3.0,2.0,1.0,289000.0,apartment,"Rua Sérgio de Carvalho, 801",Federação
+1,65.5,2.5,2.5,1.0,540000.0,apartment,"Rua Parambu, 566",Santa Teresa
+2,59.0,2.0,1.0,1.0,40000.0,house,"Rua Botuporã, 35",Pernambués
+3,59.0,2.0,1.0,1.0,45000.0,house,"Rua Rita Nuno, 20",Uruguai
+4,360.0,4.0,4.0,3.0,449900.0,house,"Rua Professor Sebastião Camilo Valença, 100",Itapuã
+5,68.0,3.0,1.0,1.0,50000.0,house,"Rua das Árvores, 5",Cabula VI
+6,59.0,2.0,1.0,1.0,50000.0,house,"Rua do Fogo, 28",Ribeira
+9,60.0,2.0,1.0,1.0,50000.0,house,"Rua Otávio Ariani Machado, 19",Caixa D´Água
+10,216.0,4.0,5.0,3.0,1080000.0,apartment,"Rua Professor Edgard Mata, 268",Garibaldi
+11,90.0,3.0,2.0,,80000.0,house,"Rua Juçara, 10",Ribeira
+13,55.0,3.0,2.0,,145000.0,apartment,"São Marcos, Salvador",BA
+14,65.0,2.0,2.0,1.0,250000.0,apartment,"Rua Doutor Renato Mendonça, 1",Brotas
+18,200.0,3.0,1.0,,380000.0,apartment,"Rua Duarte da Costa, 37",Bonfim
+21,170.0,3.0,4.0,3.0,679330.0,house,"Alameda Dilson Jatahy Fonseca, 100",Stella Maris
+22,135.0,2.0,1.0,1.0,145000.0,house,"1ª Travessa Ulysses Guimarães, 6452",Luís Anselmo
+23,81.0,2.0,2.0,,85000.0,house,"Rua Professora Maria Helena Fonseca, 114",Itapuã
+24,85.0,2.0,1.0,1.0,60000.0,house,"Rua Padre Feijó, 000",Canela
+28,70.0,2.0,1.0,3.0,80000.0,house,"Avenida Dom João VI, 8",Brotas
+29,80.0,2.0,1.0,1.0,80000.0,house,"Travessa São Paulo, 66",Boca do Rio
+30,120.0,2.0,1.0,,70000.0,house,"Vila Lapinha, 1",Liberdade
+32,60.0,2.0,1.0,1.0,67000.0,house,"Rua Joel Vasconcelos Santos, 123",Castelo Branco
+33,69.0,3.0,2.0,1.0,465000.0,apartment,"Avenida Luís Viana Filho, 00",Paralela
+26,72.0,3.0,2.0,1.0,45000.0,house,"Rua Espírito Santo, 71",Novo Marotinho
+31,98.0,3.0,2.0,1.0,100000.0,house,"Rua Professor Fernando Tude de Souza, 88",Matatu
+8,50.5,1.5,1.5,1.5,288000.0,apartment,"Rua Parambu, 131",Santa Teresa
+8,104.0,3.0,3.0,2.0,,,"Rua Padre Silveira Sales, 06",Jaguaribe
+10,70.0,,,,169060.0,,"Rua do Carmo, 100",Santo Antonio
+31,79.0,2.0,2.0,1.0,50000.0,house,"Rua Alvorada, 27",Tancredo Neves
+32,66.0,2.0,2.0,1.0,535000.0,apartment,"Rua Oswaldo Hugo Sacramento, 55",Piatã
+33,78.0,2.0,1.0,2.0,60000.0,house,"Rua Henrique Dias, 27",Roma
+34,94.0,3.0,4.0,2.0,629000.0,apartment,"Rua Sócrates Guanaes Gomes, 198",Cidade Jardim
+35,135.0,2.0,1.0,1.0,85000.0,house,"Rua Alexandre Ferreira, 388",Pau da Lima
+34,90.0,2.0,2.0,1.0,60000.0,house,"Rua Barbosa Romeu, 000",Sao Caetano
