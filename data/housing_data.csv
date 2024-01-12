@@ -7,7 +7,6 @@ id,areas,bedrooms,bathrooms,parkingSpots,prices,type,neighborhood
 2592933397,50.0,2.0,1.0,1.0,184900.0,apartment,Luís Anselmo
 2678057135,94.0,3.0,2.0,2.0,310000.0,apartment,Caminho de Areia
 2680287503,55.0,3.0,2.0,,94890.0,house,Cosme de Farias
-2608557603,42.5,1.5,1.0,,,,Valéria
 2681222822,100.0,3.0,2.0,1.0,100000.0,house,Pau da Lima
 2666142996,85.0,3.0,1.0,1.0,85000.0,house,Ribeira
 2678919515,146.0,4.0,4.0,2.0,570000.0,apartment,Stiep
@@ -35,7 +34,6 @@ id,areas,bedrooms,bathrooms,parkingSpots,prices,type,neighborhood
 2667965720,106.0,3.0,1.0,1.0,79000.0,house,Fazenda Coutos
 2665488209,79.0,3.0,2.0,1.0,60000.0,house,Cajazeiras X
 2674247501,76.0,2.0,2.0,1.0,50000.0,house,Cosme de Farias
-2611520490,42.0,1.0,1.0,1.0,,,Jaguaribe
 2456695737,182.0,3.0,3.0,3.0,495000.0,apartment,BA
 2671015714,60.0,2.0,1.0,1.0,50000.0,house,Caixa D´Água
 2641406100,135.0,3.0,4.0,2.0,1280000.0,apartment,Patamares
@@ -68,7 +66,6 @@ id,areas,bedrooms,bathrooms,parkingSpots,prices,type,neighborhood
 2654208554,75.0,2.0,1.0,1.0,100000.0,house,Castelo Branco
 2673093683,80.0,2.0,2.0,1.0,50000.0,house,Dom Avelar
 2681731219,90.0,3.0,2.0,2.0,100000.0,house,Bonfim
-2611519295,60.0,2.0,2.0,2.0,,,Jaguaribe
 2681790012,50.0,2.0,1.0,1.0,125000.0,apartment,Resgate
 2681712335,75.0,2.0,2.0,1.0,450000.0,apartment,Stella Maris
 2681849298,79.0,2.0,1.0,1.0,90000.0,apartment,Brotas
@@ -136,7 +133,6 @@ id,areas,bedrooms,bathrooms,parkingSpots,prices,type,neighborhood
 2651395276,90.0,2.0,1.0,1.0,75000.0,house,Cajazeiras XI
 2663981797,70.0,2.0,1.0,1.0,90000.0,house,Candeal
 2674457882,50.0,2.0,1.0,1.0,50000.0,house,Iapi
-2603450013,104.0,3.0,3.0,2.0,,,Jaguaribe
 2682079195,80.0,2.0,1.0,1.0,80000.0,house,Vila Laura
 2681623999,100.0,2.0,2.0,1.0,55000.0,house,Pirajá
 2681794397,69.0,2.0,1.0,,93000.0,apartment,Valéria
@@ -165,7 +161,6 @@ id,areas,bedrooms,bathrooms,parkingSpots,prices,type,neighborhood
 2673897702,73.0,2.0,1.0,2.0,90000.0,house,Nordeste
 2670026197,90.0,3.0,2.0,1.0,70000.0,house,Sao Joao do Cabrito
 2665473621,88.0,3.0,2.0,1.0,65000.0,house,Cabula VI
-2475085577,32.0,,,1.0,,,Caminho Das Árvores
 2681013619,148.0,2.0,1.0,2.0,100000.0,house,Itapuã
 2670724194,79.0,2.0,1.0,1.0,50000.0,house,Cabula VI
 2674143986,93.0,2.0,1.0,,110000.0,house,Liberdade
@@ -267,3 +262,80 @@ id,areas,bedrooms,bathrooms,parkingSpots,prices,type,neighborhood
 2675034813,53.0,2.0,1.0,,76000.0,house,Caixa D´Água
 2670727742,75.0,2.0,1.0,1.0,50000.0,house,Cabula VI
 2668647906,89.0,2.0,1.0,,72000.0,house,Alto da Terezinha
+2475085577,32.0,,,1.0,,,Caminho Das Árvores
+2670550708,67.0,2.0,2.0,1.0,45000.0,house,Saboeiro
+2668633850,100.0,2.0,1.0,1.0,115000.0,house,Bonfim
+2662903469,119.0,3.0,3.0,1.0,300000.0,apartment,Itapuã
+2670548345,67.0,2.0,2.0,1.0,50000.0,house,Saboeiro
+2676269099,57.0,2.0,2.0,,50000.0,house,Ribeira
+2672179017,162.0,2.0,1.0,1.0,185000.0,house,Sao Caetano
+2652517060,80.0,2.0,1.0,1.0,150000.0,house,Itapuã
+2662081661,95.0,3.0,1.0,,70000.0,house,Pernambués
+2670940430,70.0,2.0,2.0,1.0,50000.0,house,Candeal
+2672471483,87.0,2.0,1.0,,90000.0,house,Itapuã
+2672435581,68.0,2.0,1.0,1.0,48000.0,house,Sao Caetano
+2611520490,42.0,1.0,1.0,1.0,,,Jaguaribe
+2655331356,80.0,2.0,1.0,1.0,85000.0,house,Sao Tome
+2649820966,90.0,2.0,2.0,,75000.0,house,Valéria
+2663571057,76.0,3.0,2.0,2.0,575000.0,apartment,Imbuí
+2653082860,68.0,2.0,1.0,1.0,50000.0,house,Doron
+2664787093,70.0,2.0,1.0,1.0,80000.0,house,Plataforma
+2671008555,84.0,2.0,1.0,1.0,50000.0,house,Cidade Nova
+2677113198,60.0,2.0,1.0,,52000.0,house,Fazenda Grande I
+2671935002,70.0,2.0,1.0,1.0,50000.0,house,Paripe
+2651524462,49.0,2.0,1.0,1.0,75000.0,house,Santa Mônica
+2655323540,80.0,2.0,1.0,1.0,90000.0,house,Pernambués
+2667363098,70.0,3.0,1.0,,50000.0,house,Pernambués
+2660459751,90.0,2.0,1.0,1.0,100000.0,house,Iapi
+2655326828,90.0,2.0,1.0,1.0,120000.0,house,Engenho Velho da Federação
+2611519295,60.0,2.0,2.0,2.0,,,Jaguaribe
+2681058600,73.0,2.0,2.0,2.0,690000.0,apartment,Armação
+2665858898,120.0,3.0,2.0,1.0,130000.0,house,Nova Brasilia De Itapua
+2671154118,85.0,2.0,1.0,2.0,65000.0,house,São Gonçalo
+2669059799,70.0,2.0,1.0,1.0,50000.0,house,Fazenda Coutos
+2672729862,80.0,2.0,1.0,2.0,90000.0,house,Santa Mônica
+2664953625,70.0,2.0,1.0,2.0,80000.0,house,Boca da Mata
+2666878858,70.0,2.0,1.0,1.0,90000.0,house,Uruguai
+2670619607,80.0,2.0,1.0,1.0,50000.0,house,Cajazeiras X
+2669619600,50.0,3.0,1.0,,80000.0,house,Castelo Branco
+2603450013,104.0,3.0,3.0,2.0,,,Jaguaribe
+2681658928,120.0,3.0,2.0,2.0,85000.0,house,Caminho Das Árvores
+2675039913,50.0,2.0,1.0,,69000.0,house,Liberdade
+2672128316,85.0,2.0,1.0,2.0,60000.0,house,Cabula VI
+2672143919,55.0,2.0,1.0,1.0,50000.0,house,Saboeiro
+2674236590,90.0,2.0,1.0,,105000.0,house,Ribeira
+2655831553,84.0,2.0,1.0,1.0,115000.0,house,Boca do Rio
+2608557603,42.5,1.5,1.0,,,,Valéria
+2676038541,57.0,2.0,1.0,,45000.0,house,Águas Claras
+2665273450,67.0,2.0,1.0,1.0,50000.0,house,Doron
+2682069908,68.0,2.0,1.0,1.0,55000.0,house,Itapuã
+2672151386,83.0,2.0,1.0,1.0,50000.0,house,Cidade Nova
+2673809582,70.0,2.0,1.0,1.0,50000.0,house,Cajazeiras X
+2674922102,67.0,2.0,2.0,1.0,45000.0,house,Arenoso
+2669594807,67.0,2.0,2.0,1.0,50000.0,house,Santa Mônica
+2673758776,62.0,2.0,2.0,1.0,229000.0,apartment,Brotas
+2672084509,170.0,2.0,1.0,1.0,198000.0,house,Ribeira
+2675937503,54.0,2.0,1.0,1.0,45000.0,house,Boa Vista do Lobato
+2674697873,126.0,3.0,4.0,3.0,1150000.0,apartment,Piatã
+2658193513,90.0,2.0,1.0,1.0,85000.0,house,Águas Claras
+2681233448,85.0,3.0,1.0,,50000.0,house,Saboeiro
+2670598009,85.0,2.0,2.0,1.0,65000.0,house,Cajazeiras X
+2666198595,100.0,2.0,2.0,1.0,100000.0,house,Caixa D´Água
+2668325405,70.0,2.0,1.0,1.0,50000.0,house,Lobato
+2658137929,115.0,2.0,1.0,1.0,130000.0,house,Amaralina
+2667677713,74.0,2.0,1.0,1.0,47000.0,house,Doron
+2672105921,130.0,2.0,1.0,1.0,152000.0,house,Bonfim
+2655564053,90.0,2.0,1.0,1.0,100000.0,house,Boca do Rio
+2657105911,90.0,2.0,1.0,,80000.0,house,Pernambués
+2672470843,80.0,2.0,1.0,,130000.0,house,Amaralina
+2681013661,128.0,2.0,1.0,2.0,100000.0,house,Itapuã
+2669429201,70.0,2.0,1.0,1.0,90000.0,house,Cajazeiras X
+2650496199,75.0,2.0,2.0,1.0,70000.0,house,Cabula VI
+2664528610,80.0,2.0,1.0,1.0,100000.0,house,Candeal
+2650450802,90.0,2.0,1.0,1.0,80000.0,house,Cajazeiras X
+2669381594,75.0,2.0,1.0,1.0,45800.0,house,Paripe
+2654536376,80.0,2.0,1.0,1.0,80000.0,house,Sao Caetano
+2670550694,56.0,2.0,1.0,1.0,50000.0,house,Sao Caetano
+2670532423,85.0,2.0,1.0,1.0,95000.0,house,Monte Serrat
+2655326703,75.0,2.0,1.0,1.0,75000.0,house,Engenho Velho de Brotas
+2674456094,60.0,2.0,1.0,1.0,50000.0,house,Fazenda Grande II
