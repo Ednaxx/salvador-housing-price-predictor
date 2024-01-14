@@ -1,7 +1,15 @@
 import numpy as np
 import pandas as pd
 
+def feature__neighborhood_area_price(df, neighborhoods_area_price):
+    def set_neighborhood_area_price(x):
+        if x.type == "house" and x.neighborhood in neighborhoods_area_price.index:
+            return neighborhoods_area_price.loc[x.neighborhood]["neighborhood_house_area_price"]
+        elif x.type == "apartment" and x.neighborhood in neighborhoods_area_price.index:
+            return neighborhoods_area_price.loc[x.neighborhood]["neighborhood_apartment_area_price"]
+        else: return np.nan
 
+    df["neighborhood_area_price"] = df.apply(set_neighborhood_area_price, axis=1)
 
 def build_features(df):
     # Missing neighborhood set to NaN
@@ -27,18 +35,11 @@ def build_features(df):
         "neighborhood_apartment_area_price": neighborhood_apartment_area_price,
         "neighborhood_house_area_price": neighborhood_house_area_price
         })
-    
+
     # Save relationship for use on prediction
     neighborhoods_area_price.to_csv("./data/neighborhoods_area_price.csv")
 
-    def set_neighborhood_area_price(x):
-        if x.type == "house" and x.neighborhood in neighborhood_house_area_price:
-            return neighborhoods_area_price.loc[x.neighborhood]["neighborhood_house_area_price"]
-        elif x.type == "apartment" and x.neighborhood in neighborhood_apartment_area_price:
-            return neighborhoods_area_price.loc[x.neighborhood]["neighborhood_apartment_area_price"]
-        else: return np.nan
-
-    df["neighborhood_area_price"] = df.apply(set_neighborhood_area_price, axis=1)
+    feature__neighborhood_area_price(df, neighborhoods_area_price)
 
     # Encode
     
