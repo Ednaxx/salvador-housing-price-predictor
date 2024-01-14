@@ -12,6 +12,8 @@ import joblib
 
 from features.build_features import build_features
 
+
+
 def create_pipeline(model, training_data):
     numerical_cols = training_data.select_dtypes(include='number').columns
     categorical_cols = training_data.select_dtypes(include='object').columns
@@ -44,9 +46,9 @@ def train_model(df):
     model = XGBRegressor(
         random_state=1,
         n_jobs=6,
-        learning_rate=0.05,
-        n_estimators=300,
-        max_depth=5
+        learning_rate=0.1,
+        n_estimators=500,
+        max_depth=2
         )
 
     pipe = create_pipeline(model, X)

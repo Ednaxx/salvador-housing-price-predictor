@@ -23,10 +23,10 @@ if __name__ == "__main__":
         "bedrooms": 2,
         "bathrooms": 2,
         "parkingSpots": 1,
-        "type": "0",
+        "type": 0,
         "neighborhood": "Tororó",
         "neighborhood_area_price": np.nan
-    }, index=[123])
+    }, index=0)
 
     prediction = predict(df)
     print(prediction)
