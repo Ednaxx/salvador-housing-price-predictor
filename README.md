@@ -8,8 +8,8 @@ This is an educational personal project for Web Scraping and Machine Learning. A
 
 - Web scraping, data cleaning and dataset loading ✅
 - EDA ✅
-- Feature Engineering and Model Evaluation
-- Model Development and Pickling
+- Feature Engineering and Model Evaluation ✅
+- Model Development and Pickling ✅
 - Rest API for model consumption
 
 ### Tools used ⚙️:
