@@ -44,8 +44,8 @@ def train_model(df):
     model = XGBRegressor(
         random_state=1,
         n_jobs=6,
-        learning_rate=0.1,
-        n_estimators=200,
+        learning_rate=0.05,
+        n_estimators=300,
         max_depth=5
         )
 

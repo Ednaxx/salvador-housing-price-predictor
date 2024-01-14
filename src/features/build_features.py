@@ -1,4 +1,9 @@
 import numpy as np
+import pandas as pd
+
+def save_neighborhoods(df):
+    neighborhoods = pd.Series(df.neighborhood.value_counts())
+    neighborhoods.to_csv("./data/neighborhoods.csv")
 
 def build_features(df):
     # Missing neighborhood set to NaN
@@ -26,5 +31,8 @@ def build_features(df):
     df["neighborhood_area_price"] = df.apply(calculate_neighborhood_area_price, axis=1)
 
     df.type = df.type.replace({"house": 0, "apartment": 1})
+
+
+    # save_neighborhoods(df)
 
     return df
