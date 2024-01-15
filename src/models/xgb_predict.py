@@ -4,13 +4,11 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import joblib
 import pandas as pd
-import numpy as np
 from features.build_features import feature__neighborhood_area_price
 
 
-
-def predict(df):
-    model = joblib.load("./models/xgb.pkl")
+def predict(df, model):
+    df = pd.DataFrame(df, index=[0])
 
     neighborhoods_area_price = pd.read_csv("./data/neighborhoods_area_price.csv", index_col="neighborhood")
 
@@ -18,19 +16,22 @@ def predict(df):
 
     df.type = df.type.replace({"house": 0, "apartment": 1})
 
-    return model.predict(df)
+    return model.predict(df).tolist()
 
 
 if __name__ == "__main__":
-    df = pd.DataFrame({
+    model = joblib.load("./models/xgb.pkl")
+
+    df = {
         "areas": 50,
         "bedrooms": 2,
         "bathrooms": 2,
         "parkingSpots": 1,
         "type": "apartment",
         "neighborhood": "Imbuí"
-    }, index=[0])
-    
+    }
 
-    prediction = predict(df)
+    # 309228.5
+
+    prediction = predict(df, model)
     print("R$ " + str(prediction))

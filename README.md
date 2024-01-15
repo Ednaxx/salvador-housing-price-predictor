@@ -10,7 +10,7 @@ This is an educational personal project for Web Scraping and Machine Learning. A
 - EDA ✅
 - Feature Engineering and Model Evaluation ✅
 - Model Development and Pickling ✅
-- Rest API for model consumption
+- Rest API for model consumption ✅
 
 ### Tools used ⚙️:
 
