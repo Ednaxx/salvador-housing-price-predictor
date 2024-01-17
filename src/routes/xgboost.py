@@ -10,7 +10,7 @@ import joblib
 
 xgb_predict = APIRouter()
 
-@xgb_predict.post("/", tags=["xgboost"])
+@xgb_predict.post("/predict", tags=["xgboost"])
 async def make_prediction(request: InputDataDTO):
     model = joblib.load("./models/xgb.pkl")
 
