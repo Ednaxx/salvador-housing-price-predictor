@@ -8,7 +8,7 @@ from features.build_features import feature__neighborhood_area_price
 
 
 def predict(df, model):
-    df = pd.DataFrame(df, index=[0])
+    df = pd.DataFrame(df)
 
     neighborhoods_area_price = pd.read_csv("./data/neighborhoods_area_price.csv", index_col="neighborhood")
 
