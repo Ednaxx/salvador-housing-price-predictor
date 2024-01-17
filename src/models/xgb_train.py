@@ -46,9 +46,9 @@ def train_model(df):
     model = XGBRegressor(
         random_state=1,
         n_jobs=6,
-        learning_rate=0.1,
+        learning_rate=0.01,
         n_estimators=500,
-        max_depth=2
+        max_depth=5
         )
 
     pipe = create_pipeline(model, X)
