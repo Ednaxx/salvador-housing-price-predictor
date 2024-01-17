@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from typing import List
 from enum import Enum
 
@@ -7,12 +7,12 @@ class HousingTypes(str, Enum):
         apartment = "apartment"
 
 class Housing(BaseModel):
-        areas: float | None = None
-        bedrooms: int | None = None
-        bathrooms: int | None = None
-        parkingSpots: int | None = None
+        areas: float = Field(gt=0, le=2000)
+        bedrooms: int = Field(ge=0)
+        bathrooms: int = Field(ge=0)
+        parkingSpots: int = Field(ge=0)
         type: HousingTypes
-        neighborhood: str | None = None
+        neighborhood: str = Field(min_length=0)
 
 class InputDataDTO(BaseModel):
         housings: List[Housing]
