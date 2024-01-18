@@ -1,7 +1,3 @@
-import sys
-import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
 import pandas as pd
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
@@ -10,7 +6,7 @@ from sklearn.preprocessing import OneHotEncoder
 from xgboost import XGBRegressor
 import joblib
 
-from features.build_features import build_features
+from src.features.build_features import build_features
 
 
 

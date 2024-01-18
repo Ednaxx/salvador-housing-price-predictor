@@ -1,5 +1,5 @@
-from extract.extract import get_data
-from transform.transform import transform_data
+from src.data.extract.extract import get_data
+from src.data.transform.transform import transform_data
 import pandas as pd
 
 def load_data(i):
