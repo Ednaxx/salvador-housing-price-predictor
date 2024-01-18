@@ -1,6 +1,7 @@
 import time
 import undetected_chromedriver as uc
 import pandas as pd
+from src.data.extract.util.scrape_data import scrape_data
 
 def get_data(start, finish):
     startTime = time.time()
@@ -30,9 +31,5 @@ def get_data(start, finish):
 
 
 if __name__ == "__main__":
-    from util.scrape_data import scrape_data
-    
     data = get_data(1, 2)
     data.to_csv("./data/scraped_data.csv", index=False)
-else:
-    from .util.scrape_data import scrape_data

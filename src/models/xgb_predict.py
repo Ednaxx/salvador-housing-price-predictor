@@ -1,10 +1,6 @@
-import sys
-import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
 import joblib
 import pandas as pd
-from features.build_features import feature__neighborhood_area_price
+from src.features.build_features import feature__neighborhood_area_price
 
 
 def predict(df, model):
@@ -22,14 +18,14 @@ def predict(df, model):
 if __name__ == "__main__":
     model = joblib.load("./models/xgb.pkl")
 
-    df = {
+    df = [{
         "areas": 50,
         "bedrooms": 2,
         "bathrooms": 2,
         "parkingSpots": 1,
         "type": "apartment",
         "neighborhood": "Imbuí"
-    }
+    }]
 
     # 309228.5
 
