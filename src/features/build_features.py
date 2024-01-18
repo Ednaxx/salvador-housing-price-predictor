@@ -15,10 +15,13 @@ def build_features(df):
     # Missing neighborhood set to NaN
     df.neighborhood = df.neighborhood.apply(lambda x: np.nan if x == "BA" else x)
 
-    # Drop null prices, areas over 2000m^2 and outliers
+    # Drop null prices and outliers
     df = df[~(df.prices.isna())]
-    df = df[~(df.areas > 2000)]
-    df = df[~(df.prices > 10000000)]
+    df = df[~(df.areas > 200)]
+    df = df[~(df.bedrooms > 5)]
+    df = df[~(df.bathrooms > 5)]
+    df = df[~(df.parkingSpots > 5)]
+    df = df[~(df.prices > 1700000)]
 
     # neighborhood Price/Area
 

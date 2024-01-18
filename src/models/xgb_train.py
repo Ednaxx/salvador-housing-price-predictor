@@ -42,9 +42,11 @@ def train_model(df):
     model = XGBRegressor(
         random_state=1,
         n_jobs=6,
-        learning_rate=0.01,
+        learning_rate=0.05,
         n_estimators=500,
-        max_depth=5
+        max_depth=2,
+        gamma=6,
+        min_child_weight=12
         )
 
     pipe = create_pipeline(model, X)
@@ -56,3 +58,5 @@ if __name__ == "__main__":
     df = pd.read_csv("./data/housing_data.csv", index_col="id")
 
     train_model(df)
+
+    print("Model trained successfully")
