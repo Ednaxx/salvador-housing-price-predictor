@@ -1,6 +1,6 @@
-import joblib
 import pandas as pd
 from src.features.build_features import feature__neighborhood_area_price
+from src.models.xgb_load import load_model
 
 
 def predict(df, model):
@@ -16,7 +16,7 @@ def predict(df, model):
 
 
 if __name__ == "__main__":
-    model = joblib.load("./models/xgb.pkl")
+    model = load_model()
 
     df = [{
         "areas": 50,
