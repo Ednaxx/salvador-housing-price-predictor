@@ -4,7 +4,7 @@ import pandas as pd
 
 neighborhoods = APIRouter()
 
-@neighborhoods.get("/", tags=["neighborhoods"])
+@neighborhoods.get("/neighborhoods", tags=["neighborhoods"])
 async def get_neighborhoods() -> neighborhoodsResponseDTO:
 
     df = pd.read_csv("./data/neighborhoods_area_price.csv")
