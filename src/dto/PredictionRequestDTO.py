@@ -14,5 +14,5 @@ class Housing(BaseModel):
         type: HousingTypes
         neighborhood: str = Field(min_length=0)
 
-class InputDataDTO(BaseModel):
+class PredictionRequestDTO(BaseModel):
         housings: List[Housing]
