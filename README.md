@@ -4,7 +4,24 @@
 
 This is an educational personal project for Web Scraping and Machine Learning. All data was scraped from the [VivaReal](https://www.vivareal.com.br) website.
 
-## Installation:
+## Installation and usage:
+
+### Makefile
+
+If you have ```make``` installed, you can use ```make <target>``` for interaction with the app.
+
+```make init``` creates the python virtual environment and installs dependencies;
+
+```make load_data``` runs the data Scraping/Cleaning pipeline;
+
+```make train_xgb``` trains and pickles a XGBoost model for the API;
+
+```make app``` runs the API locally;
+
+```make app_dev``` runs the API locally on development mode (auto reload).
+
+
+Alternatively, you can run the commands manually:
 
 ### 1. Set virtual environment
 
@@ -21,22 +38,6 @@ Install the dependencies with ```pip install -r requirements.txt```.
 To run the server locally, run ```uvicorn app:app``` on the terminal.
 
 And voila, the server will be running on ```http://127.0.0.1:8000/``` and you can check the docs on ```http://127.0.0.1:8000/docs```.
-
-To run the scripts independently (such as "load_data_pipeline.py"), use ```python3 -m src.<path>.<to>.<script>``` 
-
-### Makefile
-
-If you are on Linux, you can alternatively use ```make <target>``` for interaction with the app.
-
-```make init``` creates the python virtual environment and installs dependencies;
-
-```make load_data``` runs the data Scraping/Cleaning pipeline;
-
-```make train_xgb``` trains and pickles a XGBoost model for the API;
-
-```make app``` runs the API locally;
-
-```make app_dev``` runs the API locally on development mode (auto reload).
 
 ## Tools used ⚙️:
 
