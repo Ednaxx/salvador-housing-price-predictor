@@ -3,7 +3,6 @@ import pandas as pd
 def transform_data(df):
     print("Transforming data.")
 
-    df = df.drop_duplicates(subset=["id"])
     df = df.dropna(subset=["prices"])
 
 

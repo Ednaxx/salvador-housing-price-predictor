@@ -13,9 +13,7 @@ if __name__ == "__main__":
         try:
             df = pd.read_csv("./data/housing_data.csv")
             new_data = load_data(i)
-
             df = pd.concat([df, new_data], axis=0)
-            df = df.drop_duplicates(subset="id")
         except:
             df = load_data()
         

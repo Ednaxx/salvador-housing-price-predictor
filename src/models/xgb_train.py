@@ -43,10 +43,10 @@ def train_model(df):
         random_state=1,
         n_jobs=6,
         learning_rate=0.05,
-        n_estimators=500,
-        max_depth=2,
-        gamma=6,
-        min_child_weight=12
+        n_estimators=200,
+        max_depth=1,
+        gamma=0.5,
+        min_child_weight=0.01
         )
 
     pipe = create_pipeline(model, X)
