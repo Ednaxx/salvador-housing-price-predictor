@@ -4,6 +4,28 @@
 
 This is an educational personal project for Web Scraping and Machine Learning. All data was scraped from the [VivaReal](https://www.vivareal.com.br) website.
 
+## Model features:
+
+```areas``` Total interior habitable area in ***m<sup>2</sup>***;
+
+```bedrooms``` Total amount of bedrooms. When scraped data contained intervals (e.g. "2-4"), the mean was used, so this feature is of ***float*** type;
+
+```bathrooms``` Total amount of bathrooms. When scraped data contained intervals (e.g. "2-4"), the mean was used, so this feature is of ***float*** type;
+
+```parkingSpots``` Total amount of parking spots. When scraped data contained intervals (e.g. "2-4"), the mean was used, so this feature is of ***float*** type;
+
+```type``` housing type. Can only be ***"apartment"*** or ***"house"***;
+
+```neighborhood``` neighborhood in Salvador/Bahia in which the housing is located;
+
+```neighborhood_area_price``` value defined by calculating:
+
+ ***(sum of neighborhood's house prices) / (sum of neighborhood's house areas)*** if the type is ***"house"*** or
+ 
+  ***(sum of neighborhood's apartment prices) / (sum of neighborhood's apartment areas)*** if the type is ***"apartment"***;
+
+```prices``` housing price in ***BRL***;
+
 ## Installation and usage:
 
 ### Makefile
@@ -16,10 +38,8 @@ If you have ```make``` installed, you can use ```make <target>``` for interactio
 
 ```make train_xgb``` trains and pickles a XGBoost model for the API;
 
-```make app``` runs the API locally;
-
-```make app_dev``` runs the API locally on development mode (auto reload).
-
+```make app``` runs the API locally and ```make app_dev``` runs it on development mode (auto reload).
+ The server will be running on ```http://127.0.0.1:8000/``` and you can check the docs on ```http://127.0.0.1:8000/docs```.
 
 Alternatively, you can run the commands manually:
 
